@@ -10,7 +10,7 @@ import colorama
 from colorama import Fore, Back, Style
 colorama.init(autoreset=True)
 
-version = "v0.01"
+version = "v1.0"
 
 path = ""
 
@@ -271,4 +271,5 @@ while True:
     
     # Unknown command
     else:
+
         print(Fore.RED + "Unknown command!")
